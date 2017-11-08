@@ -5,10 +5,11 @@
              x:Class="MuiltSelectPicker.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <local:CustomPicker SelectedIndexChanged="CustomPicker_SelectedIndexChanged" x:Name="MyPicker" >
+            <local:CustomPicker  x:Name="MyPicker" >
                 <local:CustomPicker.Items>                  
                 </local:CustomPicker.Items>
             </local:CustomPicker>
+            
             <Label x:Name="SeleitemLabel"/>
         </StackLayout>
     </ContentPage.Content>
